@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_city"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:layout_centerVertical="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view_item_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Ville"
+            android:textSize="@dimen/city_name" />
+        <TextView
+            android:id="@+id/text_view_item_city_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_desc"
+            android:textColor="@color/white"
+            android:textSize="@dimen/city_desc" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_view_item_city_weather"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:contentDescription="@string/weather_sunny"
+        android:src="@drawable/weather_sunny_white" />
+    <TextView
+        android:id="@+id/text_view_item_city_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/city_temp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/city_temp" />
+
+</LinearLayout>

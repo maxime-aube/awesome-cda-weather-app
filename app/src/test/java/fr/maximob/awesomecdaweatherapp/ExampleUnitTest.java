@@ -1,4 +1,4 @@
-package com.example.awesomecdaweatherapp;
+package fr.maximob.awesomecdaweatherapp;
 
 import org.junit.Test;
 

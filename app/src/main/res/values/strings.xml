@@ -5,4 +5,11 @@
     <string name="city_temp">24°C</string>
     <string name="weather_sunny">sunny weather icon</string>
     <string name="fav">Favorites</string>
+    <string name="no_network">No network connection.</string>
+    <string name="title_activity_favorite" translatable="false">FavoriteActivity</string>
+    <string name="search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="fab">Add a city</string>
+    <string name="fabPositive">Add</string>
+    <string name="fabNegative">Cancel</string>
 </resources>

@@ -6,4 +6,10 @@
     <string name="city_temp">24°C</string>
     <string name="weather_sunny">icône de météo ensoleillée</string>
     <string name="fav">Favoris</string>
+    <string name="no_network">Il n\'y a pas de connexion internet.</string>
+    <string name="search">Rechercher</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="fab">Ajouter une ville</string>
+    <string name="fabPositive">Ajouter</string>
+    <string name="fabNegative">Annuler</string>
 </resources>
